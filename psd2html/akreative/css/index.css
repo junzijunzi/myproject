@@ -39,15 +39,15 @@ body{background:url("../image/body_bg.png") repeat-x;font-family:Arial;}
 #content{height:400px;position:relative;}
 #content .prev,#content .next,#imgBox{position:absolute;}
 #content .prev,#content .next{top:166px;display:block;width:37px;height:58px;}
-#content .prev{left:14px;background:url("../image/switchBtn.png") no-repeat;}
-#content .next{right:14px;background:url("../image/switchBtn.png") no-repeat 0 -58px;}
+#content .prev{left:14px;background:url("../image/content_ico.png") no-repeat;}
+#content .next{right:14px;background:url("../image/content_ico.png") no-repeat 0 -58px;}
 #imgBox{top:56px;left:106px;width:747px;height:292px;border:1px solid #464c5c;overflow:hidden;}
 #pic,#imgBox ul{position:absolute;top:0;}
 #pic{left:0;width:2368px;}
 #imgbox ul{right:0;}
 #imgbox a{position:relative;display:block;height:60px;font-size:20px;line-height:24px;color:#fff;padding:10px 0 2px 22px;border-bottom:1px solid #464c5c;background-color:#747d8a;}
 #imgbox .lastone{padding-bottom:3px;}
-#imgbox p{width:113px;background:url("../image/content_ico.png") no-repeat -317px -298px;padding-left:20px;font-size:16px;}
+#imgbox p{width:113px;background:url("../image/content_ico.png") no-repeat 0 -116px;padding-left:20px;font-size:16px;}
 #imgbox span.active {
   display: block;
   position: absolute;
